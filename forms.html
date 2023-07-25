@@ -1,0 +1,52 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>User Details</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  
+  <body>
+    <script src="script.js"></script>
+  <div class= main>
+    <div>
+      <h3> Welcome </h3>
+      <p>Kindly provide your details</p>
+    </div>
+<div class= Second>
+    <form>
+      <label>First name:</label>
+      <input type= "text" class="First name" required>
+      <br>
+      <label>Last name </label>
+      <input type= "text" class="Last name" required>
+      <br>
+      <label>Age</label>
+      <input type="number" class="Age" min="10"  max="100" required>
+      <br>
+      <label>Country</label>
+      <select type="text" class="Country" required>
+      <option value=""disabled selected>Select your country</option>
+      <option value="Ghana">Ghana</option>
+      <option value="USA">USA</option>
+      <option value="Germany">Germany</option>
+      <option value="Togo">Togo</option>
+      <option value="Nigeria">Nigeria</option>
+      <option value="Malawi">Malawi</option>
+      <option value="Canada">Canada</option>
+      <option value="China">China</option>
+      <option value="Australia">Australia</option>
+      <option value="France">France</option>
+      <option value="Italy">Italy</option>
+      <option value="India">India</option>
+      <option value="Japan">Japan</option>
+      <option value="Brazil">Brazil</option>
+      <option value="Others">Others</option>
+    </select>
+    <br>
+    <label for="picture">Picture:</label>
+    <input type="file" class="picture" accept="image/*" required>
+    <br>
+    <input type="submit" value="Submit">
+    </form>
+</div>
+

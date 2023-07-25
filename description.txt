@@ -1,0 +1,17 @@
+Question3
+a. DOM (Document Object Model) is a standardize interface that describes a web page.
+DOM changes the structure,style and content of a web page.
+
+b. Promises are a feature in JavaScript that provides the ability to run different processes(asynchronous Operations) at the same time and execute the results.
+And it uses API Packages to fetch data to provide a meaningful results and we use get to create new promises.
+Lastly, we have two ways of waiting for a promise;
+1. Asyn/await:Is a special syntax that makes sure the data result is executed before displaying and await works only inside async function.
+
+c. Object Oriented Programming(OOP) is programming paradigm that organizes code and data into reusable structure called Objects.
+OPP helps makes us manage and understand complex system.
+
+d. Callbacks are commonly used in asynchronous programming to handle the results of async and it passes an argument to another function.
+
+
+Question4
+1000,000,000bytes makes a Gigabyte.

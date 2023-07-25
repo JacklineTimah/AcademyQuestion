@@ -1,0 +1,91 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  .main{
+    box-sizing:border-box;
+    background:white;
+    border-radius:20px;
+    border:1px solid rgb(8, 8, 8);
+    max-width:400px;
+    display:block;
+    padding:20px 30px;
+    box-shadow:whitesmoke 0px 5px 10px 1px;
+  }
+  h3{
+    display:block;
+    color:black;
+    font-weight:bold;
+    text-align: center;
+  }
+  p{
+    display:block;
+    color:black;
+    text-align: center;
+  }
+  .Second{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    color:black;
+  }
+
+  .Country{
+    color: black;
+  }
+  .submit{
+    color: black;
+  }
+    /* Common styles for all screen sizes */
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    input,
+    select {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 15px;
+      border: 1px solid black;
+      border-radius: 4px;
+    }
+
+    input[type="file"] {
+      border: none;
+      margin-bottom: 5px;
+    }
+
+    input[type="submit"] {
+      background-color: blue;
+      color: white;
+      cursor: pointer;
+    }
+
+    /* Media query for screen sizes smaller than 768px (e.g., mobile phones) */
+    @media screen and (max-width: 768px) {
+      form {
+        padding: 10px;
+      }
+
+      label {
+        margin-bottom: 5px;
+      }
+
+      input,
+      select {
+        padding: 5px;
+        margin-bottom: 10px;
+        font-size: 14px;
+      }
+    }
+  
+
+    
+  
